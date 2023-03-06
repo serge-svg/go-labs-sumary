@@ -10,6 +10,7 @@ func main() {
 
 	var stringType string
 	var intType int
+	var intArray [5]int
 	var floatType float64
 	var booleanType bool
 	arr := []interface{}{stringType, intType, floatType, booleanType}
@@ -18,6 +19,7 @@ func main() {
 	fmt.Println(types)
 	fmt.Printf("%T\n", stringType)
 	fmt.Printf("%T\n", intType)
+	fmt.Printf("%T\n", intArray)
 	fmt.Printf("%T\n", floatType)
 	fmt.Printf("%T\n", arr)
 
